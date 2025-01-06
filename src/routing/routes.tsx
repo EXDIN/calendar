@@ -10,20 +10,20 @@ const routes: RouteObject[] = [{
     path: Pages.Home,
     element: <Layout />,
     children: [
-            {
-                path: Pages.Home,
-                element: <Home />,
-            },
-            {
-                path: Pages.Calendar,
-                element: <Calendar />,
-            },
-            {
-                path: Pages.Undefined,
-                element: <Page404 />,
-            },
-        ]
-    },
-]
+        {
+            path: Pages.Home,
+            element: <Home />,
+        },
+        {
+            path: Pages.Calendar,
+            element: <Calendar />,
+        },
+        {
+            path: Pages.Undefined,
+            element: <Page404 />,
+        },
+    ]
+}]
+
 
 export default routes;
