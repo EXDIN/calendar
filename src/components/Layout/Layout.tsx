@@ -9,6 +9,7 @@ const MyDiv = styled("div", {
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
+    paddingBottom: "20px",
 })
 
 

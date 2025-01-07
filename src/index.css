@@ -1,8 +1,24 @@
-body {
+*, *:is(::after, ::before) {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 a {
     text-decoration: none;
+}
+
+input,
+textarea,
+select,
+button {
+    color: inherit;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+body {
+    background-color: rgb(220, 219, 218);
 }
