@@ -2,8 +2,8 @@ import { RouteObject } from "react-router-dom";
 import Pages from "./pages-enum";
 import Home from "../pages/Home/Home";
 import Layout from "../components/Layout/Layout";
-import Calendar from "../pages/Calendar/Calendar";
 import Page404 from "../pages/Page404/Page404";
+import Calendar from "../pages/Calendar/Calendar";
 
 
 const routes: RouteObject[] = [{
