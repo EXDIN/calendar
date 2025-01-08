@@ -1,25 +1,15 @@
 import React from 'react'
 import { Outlet } from 'react-router-dom'
-import { styled } from "@stitches/react";
-
-
-const MyDiv = styled("div", {
-    minHeight: "100vh",
-    background: 'rgb(220, 219, 218)',
-    display: 'flex',
-    alignItems: 'center',
-    justifyContent: 'center',
-    paddingBottom: "20px",
-})
+import { LayoutDiv } from './Layout.styles';
 
 
 const Layout: React.FC = () => {
     return (
-        <MyDiv>
+        <LayoutDiv>
             <Outlet />
-        </MyDiv>
+        </LayoutDiv>
     )
 }
 
 
-export default Layout
+export default Layout;
