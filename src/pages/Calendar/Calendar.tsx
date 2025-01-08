@@ -40,12 +40,12 @@ function Calendar() {
         getHolidays();
     }, [])
 
-    const onLeftArrow = (e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => {
+    const onLeftArrow = () => {
         if (currentMonth > 0) {
             setCurrentMonth(currentMonth - 1);
         }
     }
-    const onRightArrow = (e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => {
+    const onRightArrow = () => {
         if (currentMonth < 11) {
             setCurrentMonth(currentMonth + 1);
         }
