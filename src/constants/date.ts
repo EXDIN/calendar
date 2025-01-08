@@ -6,7 +6,7 @@ export const weekDays = [
     "Thu",
     "Fri",
     "Sat",
-]
+];
 
 export const months = [
     "January",
@@ -21,4 +21,4 @@ export const months = [
     "October",
     "November",
     "December"
-]
+];

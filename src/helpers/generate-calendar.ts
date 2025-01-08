@@ -1,7 +1,8 @@
+
 const generateDaysInMonth = (year: number, month: number) => {
     const daysInMonth = new Date(year, month + 1, 0).getDate();
     const days = [];
-    
+
     for (let day = 1; day <= daysInMonth; day++) {
         days.push(new Date(year, month, day));
     }
@@ -26,4 +27,3 @@ export const generateCalendar = (year: number, month: number) => {
 
     return calendar;
 };
-
