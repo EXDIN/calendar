@@ -22,3 +22,6 @@ export const months = [
     "November",
     "December"
 ];
+
+
+export const ApiURL = "https://date.nager.at/api/v3/PublicHolidays/2025/UA";

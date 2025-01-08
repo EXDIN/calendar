@@ -3,7 +3,6 @@ import { styled } from "@stitches/react";
 export const OpenButton = styled("button", {
     backgroundColor: 'beige',
     fontSize: '20px',
-    padding: '10px 20px',
     borderRadius: '10px',
     cursor: 'pointer',
     border: 'none',

@@ -1,10 +1,10 @@
 import { useState } from "react"
-import { Task } from "../../../store/tasks/tasks.slice"
 import ModalComponent from "../../../components/ModalComponent/ModalComponent"
 import { useDispatch } from "react-redux"
 import { addTask } from '../../../store/tasks/tasks.slice';
 import { yesterday } from "../../../helpers/day"
 import { AddForm, DateInput, DescInput, OpenButton, SubmBtn } from "./AddTask.styles"
+import { Task } from "../../../types";
 
 
 

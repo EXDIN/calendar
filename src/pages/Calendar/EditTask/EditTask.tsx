@@ -1,10 +1,11 @@
 import { useState } from "react"
-import { Task, updateTask } from "../../../store/tasks/tasks.slice"
+import { updateTask } from "../../../store/tasks/tasks.slice"
 import ModalComponent from "../../../components/ModalComponent/ModalComponent"
 import { useDispatch } from "react-redux"
 import { Pencil } from "lucide-react"
 import { yesterday, tomorrow } from "../../../helpers/day"
 import { EditdForm, DateInput, DescInput, OpenButton, SubmBtn } from "./EditTask.styles"
+import { Task } from "../../../types"
 
 
 function EditTask({ task }: { task: Task }) {
