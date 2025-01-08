@@ -1,0 +1,33 @@
+
+.day {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    justify-self: start;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    background-color: rgb(190, 190, 190);
+    overflow-wrap: anywhere;
+}
+
+.task {
+    background-color: beige;
+    border-radius: 15px;
+    display: flex;
+    padding: 3px 5px;
+    justify-content: space-between;
+    font-size: 15px;
+    align-items: center;
+}
+
+.holiday {
+    background: greenyellow;
+}
+
+.searchTask {
+    background: #ffe6e6;
+    border-color: #ff0000;
+    color: #ff0000;
+}
