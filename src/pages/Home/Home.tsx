@@ -1,19 +1,6 @@
 import { Link } from "react-router-dom";
 import Pages from "../../routing/pages-enum";
-import { styled } from "@stitches/react";
-
-
-const MyDiv = styled("span", {
-    padding: '15px 25px',
-    display: 'flex',
-    alignItems: 'center',
-    justifyContent: 'center', 
-    borderRadius: '15px',
-    backgroundColor: 'black',
-    fontSize: '20px',
-    fontWeight: '600',
-    color: 'white'
-})
+import { MyDiv } from "./Home.styles";
 
 
 function Home() {
